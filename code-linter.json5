@@ -11,10 +11,17 @@
     "**/build/**/*",
     "**/.preview/**/*"
   ],
-  "ruleSet": [
-    "plugin:@performance/recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
   "rules": {
+    "@typescript-eslint/ban-types": "error",// 禁止 let a:String = '';String应为string
+    "@typescript-eslint/brace-style": "error",// 对代码块强制执行一致的括号样式。
+    "@typescript-eslint/comma-spacing": "error", // 强制逗号前后的空格风格保持一致。
+    "@typescript-eslint/explicit-member-accessibility": "error", //在类属性和方法上需要显式定义访问修饰符。
+    "@typescript-eslint/func-call-spacing": "error", // 禁止函数名与函数名后面的括号之间加空格。
+    "@typescript-eslint/keyword-spacing": "error", // 强制在关键字之前和关键字之后保持一致的空格风格。
+    "@typescript-eslint/lines-between-class-members": "error", // 要求类成员之间有空行分隔
+    "@typescript-eslint/naming-convention": "error", // 类名为大驼峰的命名风格，函数名为小驼峰的命名风格
+    "@typescript-eslint/no-dupe-class-members": "error", // 不允许重复的类成员。如果类成员中有同名的声明，最后一个声明会覆盖其他声明，可能会导致意外行为
+    "@typescript-eslint/no-duplicate-imports": "error", // 禁止重复的模块导入。
+    "@typescript-eslint/no-empty-function": "error", // 不允许使用空函数。
   }
 }
