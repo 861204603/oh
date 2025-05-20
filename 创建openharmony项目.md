@@ -1,3 +1,4 @@
+## 更改 build-profile.json5 中字段
 ```
 "products": [
       {
