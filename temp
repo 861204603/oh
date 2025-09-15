@@ -1,0 +1,1 @@
+ cmake -DCMAKE_TOOLCHAIN_FILE=/Users/sunfeiyu/sdk/packages/ohos-sdk/darwin/native/build/cmake/ohos.toolchain.cmake -DCMAKE_INSTALL_PREFIX=/Users/sunfeiyu/DevEcoStudioProjects/Test0520/entry/src/main/cpp -DOHOS_ARCH=x86_64
